@@ -18,3 +18,7 @@ In OS X's terminal:
 cp SimplePause.py /Applications/<CURA APP>/Contents/Resources/cura/plugins/PostProcessingPlugin/scripts/
 ```
 
+## Credits
+
+Based on the included "Color Change" script.
+
