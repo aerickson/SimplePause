@@ -22,7 +22,7 @@ class SimplePause(Script):
                 "layer_number":
                 {
                     "label": "Layer",
-                    "description": "The layer to pause before. Indexed at 1. Specify multiple color changes with a comma.",
+                    "description": "The layer to pause before. Indexed at 1. Specify multiple pauses with a comma.",
                     "unit": "",
                     "type": "str",
                     "default_value": "1"
