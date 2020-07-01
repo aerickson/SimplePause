@@ -4,6 +4,15 @@ A Cura 3 Post Processing Script for the Post Processing Plugin.
 
 At the requested layers, the script will insert GCode to home the X and Y axes (G28 Y0 X0) and pause (M0). The bed and exturder are kept at temperature.
 
+```
+;;; start simple_pause
+; home x and y axes
+G28 Y0 X0
+; stop (bed and extruder stay at temp)
+M0
+;;; end simple_pause
+```
+
 ## Why
 
 I had issues with the included plugins. On my printer (Lulzbot Mini 1), Z raises seemed to cause the print to resume above the last layers by several millimeters.
